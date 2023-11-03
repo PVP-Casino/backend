@@ -1,0 +1,68 @@
+2023/08/04 21:17:54
+enterpot-event.js : Error in getPastPotEntries() function
+Error: Invalid JSON RPC response: {"size":0,"timeout":0}
+
+2023/08/05 04:22:25
+winner.js : Error in getPastPotWinners() function
+Error: Invalid JSON RPC response: {"size":0,"timeout":0}
+
+2023/08/05 04:22:49
+enterpot-event.js : Error in getPastPotEntries() function
+Error: Invalid JSON RPC response: {"size":0,"timeout":0}
+
+2023/08/06 09:41:11
+2023/08/06 09:41:11
+enterpot-event.js : Error in getPastPotEntries() function
+winner.js : Error in getPastPotWinners() function
+Error: CONNECTION ERROR: Couldn't connect to node https://evm-rpc.planq.network.
+Error: CONNECTION ERROR: Couldn't connect to node https://evm-rpc.planq.network.
+
+
+2023/08/07 16:32:55
+INSERT IGNORE INTO `pot_winners` (`round`, `value`, `amount`, `amountwon`, `participant`, `winner`, `txHash`, `block`) VALUES  ('1', '19000000000000000000', '17000000000000000000', '18943000000000000000', '0
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0' at line 1
+
+2023/08/07 16:59:05
+INSERT IGNORE INTO `pot_winners` (`round`, `value`, `amount`, `amountwon`, `participant`, `winner`, `txHash`, `block`) VALUES  ('1', '19000000000000000000', '17000000000000000000', '18943000000000000000', '0', '0xDe1E88200AF1aa68925Cf23463B96D471099845c', '0', '0xdf54ca934cbd9806dba85689bced6d172a161e033b2228eb07810950cc563109', '4317206')
+Error: ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1
+
+2023/08/30 23:30:12
+Error in getting gas Price
+Error: CONNECTION ERROR: Couldn't connect to node on WS.
+
+2023/08/31 00:09:46
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: Not ended: invalid request
+
+2023/08/31 00:10:02
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: Not ended: invalid request
+
+2023/08/31 00:24:12
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: Not ended: invalid request
+
+2023/09/30 01:14:24
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: Not ended: invalid request
+
+2023/09/30 01:15:09
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: not allowed: invalid request
+
+2023/09/30 01:16:56
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: not allowed: invalid request
+
+2023/09/30 01:17:56
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: not allowed: invalid request
+
+2023/09/30 01:19:47
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: not allowed: invalid request
+
+2023/09/30 01:20:27
+Error estimating the gas cost 
+Error: Returned error: rpc error: code = InvalidArgument desc = execution reverted: not allowed: invalid request
+

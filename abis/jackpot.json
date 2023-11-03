@@ -1,0 +1,257 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      { "type": "address", "name": "_tokenAddr", "internalType": "address" },
+      { "type": "address", "name": "_rewardPoolAddr", "internalType": "address" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "calculateIndex",
+    "inputs": []
+  },
+  { "type": "function", "stateMutability": "nonpayable", "outputs": [], "name": "calculateWinner", "inputs": [] },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      { "type": "address", "name": "player", "internalType": "address" },
+      { "type": "uint256", "name": "amount", "internalType": "uint256" }
+    ],
+    "name": "currentEntries",
+    "inputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "currentEntryCount",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "enterPot",
+    "inputs": [{ "type": "uint256", "name": "_amount", "internalType": "uint256" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "entryIds",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "fee",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      { "type": "uint256", "name": "_roundIds", "internalType": "uint256" },
+      { "type": "uint8", "name": "_roundStatus", "internalType": "enum Jackpot.STATE" },
+      { "type": "uint256", "name": "_roundStartTime", "internalType": "uint256" },
+      { "type": "uint256", "name": "_roundLiveTime", "internalType": "uint256" },
+      { "type": "uint256", "name": "_roundDuration", "internalType": "uint256" },
+      { "type": "uint256", "name": "_totalAmount", "internalType": "uint256" },
+      { "type": "uint256", "name": "_entryCount", "internalType": "uint256" },
+      { "type": "uint256", "name": "_minEntranceAmount", "internalType": "uint256" }
+    ],
+    "name": "getRoundStatus",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "minEntranceAmount",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "nonce",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
+    "name": "owner",
+    "inputs": []
+  },
+  { "type": "function", "stateMutability": "nonpayable", "outputs": [], "name": "renounceOwnership", "inputs": [] },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
+    "name": "rewardPoolAddr",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "roundDuration",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "roundIds",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "roundLiveTime",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "roundStartTime",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint8", "name": "", "internalType": "enum Jackpot.STATE" }],
+    "name": "roundStatus",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setFeePercent",
+    "inputs": [{ "type": "uint256", "name": "_fee", "internalType": "uint256" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setMinimumEntranceAmount",
+    "inputs": [{ "type": "uint256", "name": "amount", "internalType": "uint256" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setRewardPoolAddress",
+    "inputs": [{ "type": "address", "name": "addr", "internalType": "address" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setRoundDuration",
+    "inputs": [{ "type": "uint256", "name": "value", "internalType": "uint256" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setTokenAddress",
+    "inputs": [{ "type": "address", "name": "addr", "internalType": "address" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
+    "name": "tokenAddress",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint8", "name": "", "internalType": "uint8" }],
+    "name": "tokenDecimal",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "totalEntryAmount",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "transferOwnership",
+    "inputs": [{ "type": "address", "name": "newOwner", "internalType": "address" }]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "withdrawETH",
+    "inputs": [
+      { "type": "address", "name": "receiver", "internalType": "address" },
+      { "type": "uint256", "name": "amount", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "withdrawToken",
+    "inputs": [
+      { "type": "address", "name": "receiver", "internalType": "address" },
+      { "type": "address", "name": "_tokenAddr", "internalType": "address" },
+      { "type": "uint256", "name": "amount", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "CalculateWinner",
+    "inputs": [
+      { "type": "uint256", "name": "roundId", "indexed": true },
+      { "type": "address", "name": "winner", "indexed": true },
+      { "type": "uint256", "name": "reward", "indexed": false },
+      { "type": "uint256", "name": "total", "indexed": false },
+      { "type": "uint256", "name": "user", "indexed": false }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "EnteredPot",
+    "inputs": [
+      { "type": "uint256", "name": "roundId", "indexed": true },
+      { "type": "uint256", "name": "entryId", "indexed": true },
+      { "type": "address", "name": "player", "indexed": true },
+      { "type": "uint256", "name": "amount", "indexed": false }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "OwnershipTransferred",
+    "inputs": [
+      { "type": "address", "name": "previousOwner", "indexed": true },
+      { "type": "address", "name": "newOwner", "indexed": true }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "StartedCalculating",
+    "inputs": [{ "type": "uint256", "name": "roundId", "indexed": true }],
+    "anonymous": false
+  }
+]
